@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nameForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-1]</recmost>
+		<name>// Код территории</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 9</len>
+		<recmost>Р[6-2]</recmost>
+		<name>// Номер уголовного дела</name>
+	</record>
+	<record>
+		<type>S</type>
+		<count>1</count>
+		<len>17</len>
+		<recmost>Р[6-2.1]</recmost>
+		<name>// Единый номер уголовного дела</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[6-2.1-1]</recmost>
+		<name>// Вид уголовного дела или материала проверки</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-2.1-2]</recmost>
+		<name>// Последние две цифры года..</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[6-2.1-3]</recmost>
+		<name>// Уникальный восьмиразрядный код подразделения</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 9</len>
+		<recmost>Р[6-2.1-4]</recmost>
+		<name>// Присвоенный при регистрации порядковый номер уголовного дела..</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[6-8]</recmost>
+		<name>// Дата направления УД в суд</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[6-9]</recmost>
+		<name>// Дата поступления УД в суд</name>
+	</record>
+	<record>
+		<type>S</type>
+		<count>1</count>
+		<len>11</len>
+		<recmost>Р[6-10]</recmost>
+		<name>// Номер УД, присвоенный судом</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-11]</recmost>
+		<name>// Код суда</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[6-12]</recmost>
+		<name>// Дата вынесения приговора</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[6-12.1-1]</recmost>
+		<name>// Изменение приговора</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[6-12.1-2]</recmost>
+		<name>// Дата изменения приговора</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[6-13]</recmost>
+		<name>// Дата вcтупл. приговора в силу</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[6-14]</recmost>
+		<name>// Суть приговора ? код</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.1-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.1-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-15.1-3]</recmost>
+		<name>// 1-ая квалиф.из ДПУ ф2 (ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-15.1-4]</recmost>
+		<name>// 1-ая квалиф.из ДПУ ф2 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.2-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.2-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-15.2-3]</recmost>
+		<name>// 2-ая квалиф.из ДПУ ф2 (ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-15.2-4]</recmost>
+		<name>// 2-ая квалиф.из ДПУ ф2 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.3-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.3-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-15.3-3]</recmost>
+		<name>// 3-я квалиф.из ДПУ ф2 (ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-15.3-4]</recmost>
+		<name>// 3-я квалиф.из ДПУ ф2 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.4-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.4-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-15.4-3]</recmost>
+		<name>// 4-ая квалиф.из ДПУ ф2 (ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-15.4-4]</recmost>
+		<name>// 4-ая квалиф.из ДПУ ф2 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.5-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.5-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-15.5-3]</recmost>
+		<name>// 5-ая квалиф.из ДПУ ф2 (ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-15.5-4]</recmost>
+		<name>// 5-ая квалиф.из ДПУ ф2 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.6-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.6-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-15.6-3]</recmost>
+		<name>// 6-ая квалиф.из ДПУ ф2 (ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-15.6-4]</recmost>
+		<name>// 6-ая квалиф.из ДПУ ф2 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.7-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.7-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-15.7-3]</recmost>
+		<name>// 7-ая квалиф.из ДПУ ф2 (ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-15.7-4]</recmost>
+		<name>// 7-ая квалиф.из ДПУ ф2 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.8-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.8-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-15.8-3]</recmost>
+		<name>// 8-ая квалиф.из ДПУ ф2 (ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-15.8-4]</recmost>
+		<name>// 8-ая квалиф.из ДПУ ф2 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.9-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.9-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-15.9-3]</recmost>
+		<name>// 9-ая квалиф.из ДПУ ф2 (ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-15.9-4]</recmost>
+		<name>// 9-ая квалиф.из ДПУ ф2 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.10-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-15.10-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-15.10-3]</recmost>
+		<name>// 10-ая квалиф.из ДПУ ф2 (ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-15.10-4]</recmost>
+		<name>// 10-ая квалиф.из ДПУ ф2 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-16.1]</recmost>
+		<name>// Результат 1</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-16.2]</recmost>
+		<name>// Результат 2</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-16.3]</recmost>
+		<name>// Результат 3</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-16.4]</recmost>
+		<name>// Результат 4</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-16.5]</recmost>
+		<name>// Результат 5</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-16.6]</recmost>
+		<name>// Результат 6</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-16.7]</recmost>
+		<name>// Результат 7</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-16.8]</recmost>
+		<name>// Результат 8</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-16.9]</recmost>
+		<name>// Результат 9</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-16.10]</recmost>
+		<name>// Результат 10</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.1-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.1-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-17.1-3]</recmost>
+		<name>// 1-ая квалиф.из ДПУ ф6(ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-17.1-4]</recmost>
+		<name>// 1-ая квалиф.из ДПУ ф6 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.2-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.2-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-17.2-3]</recmost>
+		<name>// 2-ая квалиф из ДПУ ф6(ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-17.2-4]</recmost>
+		<name>// 2-ая квалиф.из ДПУ ф6 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.3-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.3-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-17.3-3]</recmost>
+		<name>// 3-я квалиф из ДПУ ф6(ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-17.3-4]</recmost>
+		<name>// 3-я квалиф.из ДПУ ф6 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.4-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.4-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-17.4-3]</recmost>
+		<name>// 4-ая квалиф из ДПУ ф6(ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-17.4-4]</recmost>
+		<name>// 4-ая квалиф.из ДПУ ф6 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.5-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.5-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-17.5-3]</recmost>
+		<name>// 5-ая квалиф из ДПУ ф6(ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-17.5-4]</recmost>
+		<name>// 5-ая квалиф.из ДПУ ф6 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.6-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.6-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-17.6-3]</recmost>
+		<name>// 6-ая квалиф из ДПУ ф6(ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-17.6-4]</recmost>
+		<name>// 6-ая квалиф.из ДПУ ф6 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.7-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.7-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-17.7-3]</recmost>
+		<name>// 7-ая квалиф из ДПУ ф6(ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-17.7-4]</recmost>
+		<name>// 7-ая квалиф.из ДПУ ф6 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.8-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.8-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-17.8-3]</recmost>
+		<name>// 8-ая квалиф из ДПУ ф6(ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-17.8-4]</recmost>
+		<name>// 8-ая квалиф.из ДПУ ф6 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.9-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.9-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-17.9-3]</recmost>
+		<name>// 9-ая квалиф из ДПУ ф6(ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-17.9-4]</recmost>
+		<name>// 9-ая квалиф.из ДПУ ф6 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.10-1]</recmost>
+		<name>// Стадия</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-17.10-2]</recmost>
+		<name>// Форма соучастия</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[6-17.10-3]</recmost>
+		<name>// 10-ая квалиф из ДПУ ф6(ст+зн+ч)</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[6-17.10-4]</recmost>
+		<name>// 10-ая квалиф.из ДПУ ф6 (пункт)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-18.1-1]</recmost>
+		<name>// Неотбытое основное наказание</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-18.1-2]</recmost>
+		<name>// Срок(лет)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-18.1-3]</recmost>
+		<name>// Срок(мес)</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>2</count>
+		<len> 3</len>
+		<recmost>Р[6-18.1-4]</recmost>
+		<name>// Срок(дней)</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>2</count>
+		<len> 3</len>
+		<recmost>Р[6-18.1-5]</recmost>
+		<name>// Срок(часов)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-18.2-1]</recmost>
+		<name>// Неотбытое дополнит. наказание</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-18.2-2]</recmost>
+		<name>// Срок(лет)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-18.2-3]</recmost>
+		<name>// Срок(мес)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-18.2-4]</recmost>
+		<name>// Срок(дней)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-19.1-1]</recmost>
+		<name>// Основное наказание</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-19.1-2]</recmost>
+		<name>// Срок(лет)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-19.1-3]</recmost>
+		<name>// Срок(мес)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-19.1-4]</recmost>
+		<name>// Срок(дней)</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>2</count>
+		<len> 3</len>
+		<recmost>Р[6-19.1-5]</recmost>
+		<name>// Срок(час)</name>
+	</record>
+	<record>
+		<type>E</type>
+		<count>2</count>
+		<len>12</len>
+		<recmost>Р[6-19.1-6]</recmost>
+		<name>// Взыск.штраф</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-19.2-1]</recmost>
+		<name>// Дополнительное наказание</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-19.2-2]</recmost>
+		<name>// Срок(лет)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-19.2-3]</recmost>
+		<name>// Срок(мес)</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-19.2-4]</recmost>
+		<name>// Срок(дней)</name>
+	</record>
+	<record>
+		<type>E</type>
+		<count>2</count>
+		<len>12</len>
+		<recmost>Р[6-19.2-5]</recmost>
+		<name>// Взыск.штраф</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[6-19.3-1]</recmost>
+		<name>// Особенности назначения наказания</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-19.3-2]</recmost>
+		<name>// Лет</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-19.3-3]</recmost>
+		<name>// Месяцев</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[6-19.4]</recmost>
+		<name>// Основание освобож.от наказания</name>
+	</record>
+	<record>
+		<type>E</type>
+		<count>1</count>
+		<len>12</len>
+		<recmost>Р[6-19.5]</recmost>
+		<name>// Сумма легализ.денежных средств</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[6-19.6]</recmost>
+		<name>// Преступление совершено при рецидиве</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[6-20]</recmost>
+		<name>// Дата направ. карт. в орган проводивший расслед.</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-1-1]</recmost>
+		<name>// Вид органа</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-1-2]</recmost>
+		<name>// Код органа</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-2]</recmost>
+		<name>// Учесть/изменить/снять</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-3-1]</recmost>
+		<name>// Вид документа</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-3-2]</recmost>
+		<name>// Год регистрации</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 9</len>
+		<recmost>Р[2-3-3]</recmost>
+		<name>// Номер уголовного дела</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[2-3.1]</recmost>
+		<name>// Дата возбуждения УД</name>
+	</record>
+	<record>
+		<type>S</type>
+		<count>1</count>
+		<len>17</len>
+		<recmost>Р[2-3.3]</recmost>
+		<name>// Единый номер уголовного дела</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-3.3-1]</recmost>
+		<name>// Вид уголовного дела или материала проверки</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-3.3-2]</recmost>
+		<name>// Последние две цифры года..</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[2-3.3-3]</recmost>
+		<name>// Уникальный восьмиразрядный код подразделения</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 9</len>
+		<recmost>Р[2-3.3-4]</recmost>
+		<name>// Присвоенный при регистрации порядковый номер уголовного дела..</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-4-1]</recmost>
+		<name>// Номер лица, совершившего преступление</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-4-2]</recmost>
+		<name>// Количество преступлений</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>3</count>
+		<len> 4</len>
+		<recmost>Р[2-4-3]</recmost>
+		<name>// Номера преступления в УД</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[2-5]</recmost>
+		<name>// Дата направления карточки ф. № 2 в ИЦ</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[2-6]</recmost>
+		<name>// Дата поступления карточки ф. № 2 в ИЦ</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-10]</recmost>
+		<name>// Пол</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-11-2]</recmost>
+		<name>// Возраст лица, совершившего преступление</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-12]</recmost>
+		<name>// Образование</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>2</count>
+		<len> 3</len>
+		<recmost>Р[2-13]</recmost>
+		<name>// Гражданство</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>2</count>
+		<len> 3</len>
+		<recmost>Р[2-13.1]</recmost>
+		<name>// Гражданство, предшествовавшее получению гражданства РФ</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 3</len>
+		<recmost>Р[2-14]</recmost>
+		<name>// Страна проживания</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 1</len>
+		<recmost>Р[2-15-1]</recmost>
+		<name>// Характеристика по месту проживания</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-15-2]</recmost>
+		<name>// Место жительства - код района</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-16]</recmost>
+		<name>// Цель приезда</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 3</len>
+		<recmost>Р[2-17]</recmost>
+		<name>// Национальность</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>3</count>
+		<len> 4</len>
+		<recmost>Р[2-18]</recmost>
+		<name>// Социальное положение</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-19]</recmost>
+		<name>// Должностное положение</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-20]</recmost>
+		<name>// Место работы, учебы</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-21.1-1]</recmost>
+		<name>// Квалификация преступления по УК РФ, статья+знак+часть</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-21.1-2]</recmost>
+		<name>// Квалификация преступления по УК РФ, пункт</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-21.2-1]</recmost>
+		<name>// Квалификация преступления по УК РФ, статья+знак+часть</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-21.2-2]</recmost>
+		<name>// Квалификация преступления по УК РФ, пункт</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-21.3-1]</recmost>
+		<name>// Квалификация преступления по УК РФ, статья+знак+часть</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-21.3-2]</recmost>
+		<name>// Квалификация преступления по УК РФ, пункт</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-21.4-1]</recmost>
+		<name>// Квалификация преступления по УК РФ, статья+знак+часть</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-21.4-2]</recmost>
+		<name>// Квалификация преступления по УК РФ, пункт</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-21.5-1]</recmost>
+		<name>// Квалификация преступления по УК РФ, статья+знак+часть</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-21.5-2]</recmost>
+		<name>// Квалификация преступления по УК РФ, пункт</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-21.6-1]</recmost>
+		<name>// Квалификация преступления по УК РФ, статья+знак+часть</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-21.6-2]</recmost>
+		<name>// Квалификация преступления по УК РФ, пункт</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-23]</recmost>
+		<name>// Тяжесть</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-24]</recmost>
+		<name>// Квалификация ущерба</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-25]</recmost>
+		<name>// Приготовление/покушение</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-26]</recmost>
+		<name>// Направленность</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 1</len>
+		<recmost>Р[2-27]</recmost>
+		<name>// Лицо задержано</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-28]</recmost>
+		<name>// Место совершения преступления</name>
+	</record>
+	<record>
+		<type>E</type>
+		<count>1</count>
+		<len>11</len>
+		<recmost>Р[2-28.1]</recmost>
+		<name>// Место совершения преступления по ОКАТО</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-29]</recmost>
+		<name>// Форма хозяйствующего субъекта</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-30]</recmost>
+		<name>// Вид экономической деятельности</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>3</count>
+		<len> 5</len>
+		<recmost>Р[2-31]</recmost>
+		<name>// Предмет преступного посягательства</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>3</count>
+		<len> 5</len>
+		<recmost>Р[2-31.1]</recmost>
+		<name>// Оружие</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>3</count>
+		<len> 2</len>
+		<recmost>Р[2-32]</recmost>
+		<name>// Форма собственности</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>5</count>
+		<len> 2</len>
+		<recmost>Р[2-33]</recmost>
+		<name>// Способ совершения преступления</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>3</count>
+		<len>6</len>
+		<recmost>Р[2-34]</recmost>
+		<name>// Дополнительная характеристика преступления</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[2-35]</recmost>
+		<name>// Мотив преступления</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 1</len>
+		<recmost>Р[2-36]</recmost>
+		<name>// Состояние лица совершившего преступление</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>5</count>
+		<len> 3</len>
+		<recmost>Р[2-36.1]</recmost>
+		<name>// Лицо является потребителем</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-38]</recmost>
+		<name>// Характеристика группы</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-39]</recmost>
+		<name>// Характеристика связей</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-40]</recmost>
+		<name>// Роль лица</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 1</len>
+		<recmost>Р[2-41]</recmost>
+		<name>// Являлось участником</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 1</len>
+		<recmost>Р[2-42]</recmost>
+		<name>// Лицо находилось под следствием</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-43]</recmost>
+		<name>// Ранее совершал, но не привлекался</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-44]</recmost>
+		<name>// Привлекалось к ответственности</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 3</len>
+		<recmost>Р[2-45]</recmost>
+		<name>// Ранее судимо</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-46]</recmost>
+		<name>// Совершило рецидив</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-47]</recmost>
+		<name>// Ранее содержалось в ИУ</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>3</count>
+		<len> 1</len>
+		<recmost>Р[2-48]</recmost>
+		<name>// Период совершения преступления</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-49]</recmost>
+		<name>// Освобождалось от ответственности</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>3</count>
+		<len> 1</len>
+		<recmost>Р[2-50]</recmost>
+		<name>// Ранее совершал преступления</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-51]</recmost>
+		<name>// Результат расследования в отношении лица</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-51.1]</recmost>
+		<name>// Судебное решение</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-52]</recmost>
+		<name>// Наличие информации в АБД</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-53]</recmost>
+		<name>// Ранее применялись административные меры</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-54]</recmost>
+		<name>// Кем расследовано преступление</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-54.1]</recmost>
+		<name>// Решение принято судьей</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[2-55]</recmost>
+		<name>// Лицо состояло на учёте</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-56]</recmost>
+		<name>// Служба, установившая лицо</name>
+	</record>
+</nameForm>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nameForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="F2">
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-1-1]</recmost>
+		<name>// Вид органа</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-1-2]</recmost>
+		<name>// Код органа</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-2]</recmost>
+		<name>// Учесть/изменить/снять</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-3-1]</recmost>
+		<name>// Вид документа</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-3-2]</recmost>
+		<name>// Год регистрации</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 9</len>
+		<recmost>Р[2-3-3]</recmost>
+		<name>// Номер уголовного дела</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[2-3.1]</recmost>
+		<name>// Дата возбуждения УД</name>
+	</record>
+	<record>
+		<type>S</type>
+		<count>1</count>
+		<len>17</len>
+		<recmost>Р[2-3.3]</recmost>
+		<name>// Единый номер уголовного дела</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-3.3-1]</recmost>
+		<name>// Вид уголовного дела или материала проверки</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-3.3-2]</recmost>
+		<name>// Последние две цифры года..</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[2-3.3-3]</recmost>
+		<name>// Уникальный восьмиразрядный код подразделения</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 9</len>
+		<recmost>Р[2-3.3-4]</recmost>
+		<name>// Присвоенный при регистрации порядковый номер уголовного дела..</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-4-1]</recmost>
+		<name>// Номер лица, совершившего преступление</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-4-2]</recmost>
+		<name>// Количество преступлений</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>3</count>
+		<len> 4</len>
+		<recmost>Р[2-4-3]</recmost>
+		<name>// Номера преступления в УД</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[2-5]</recmost>
+		<name>// Дата направления карточки ф. № 2 в ИЦ</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len> 8</len>
+		<recmost>Р[2-6]</recmost>
+		<name>// Дата поступления карточки ф. № 2 в ИЦ</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-10]</recmost>
+		<name>// Пол</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-11-2]</recmost>
+		<name>// Возраст лица, совершившего преступление</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-12]</recmost>
+		<name>// Образование</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>2</count>
+		<len> 3</len>
+		<recmost>Р[2-13]</recmost>
+		<name>// Гражданство</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>2</count>
+		<len> 3</len>
+		<recmost>Р[2-13.1]</recmost>
+		<name>// Гражданство, предшествовавшее получению гражданства РФ</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 3</len>
+		<recmost>Р[2-14]</recmost>
+		<name>// Страна проживания</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 1</len>
+		<recmost>Р[2-15-1]</recmost>
+		<name>// Характеристика по месту проживания</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-15-2]</recmost>
+		<name>// Место жительства - код района</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-16]</recmost>
+		<name>// Цель приезда</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 3</len>
+		<recmost>Р[2-17]</recmost>
+		<name>// Национальность</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>3</count>
+		<len> 4</len>
+		<recmost>Р[2-18]</recmost>
+		<name>// Социальное положение</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-19]</recmost>
+		<name>// Должностное положение</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-20]</recmost>
+		<name>// Место работы, учебы</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-21.1-1]</recmost>
+		<name>// Квалификация преступления по УК РФ, статья+знак+часть</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-21.1-2]</recmost>
+		<name>// Квалификация преступления по УК РФ, пункт</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-21.2-1]</recmost>
+		<name>// Квалификация преступления по УК РФ, статья+знак+часть</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-21.2-2]</recmost>
+		<name>// Квалификация преступления по УК РФ, пункт</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-21.3-1]</recmost>
+		<name>// Квалификация преступления по УК РФ, статья+знак+часть</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-21.3-2]</recmost>
+		<name>// Квалификация преступления по УК РФ, пункт</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-21.4-1]</recmost>
+		<name>// Квалификация преступления по УК РФ, статья+знак+часть</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-21.4-2]</recmost>
+		<name>// Квалификация преступления по УК РФ, пункт</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-21.5-1]</recmost>
+		<name>// Квалификация преступления по УК РФ, статья+знак+часть</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-21.5-2]</recmost>
+		<name>// Квалификация преступления по УК РФ, пункт</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 6</len>
+		<recmost>Р[2-21.6-1]</recmost>
+		<name>// Квалификация преступления по УК РФ, статья+знак+часть</name>
+	</record>
+	<record>
+		<type>R</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-21.6-2]</recmost>
+		<name>// Квалификация преступления по УК РФ, пункт</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-23]</recmost>
+		<name>// Тяжесть</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-24]</recmost>
+		<name>// Квалификация ущерба</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-25]</recmost>
+		<name>// Приготовление/покушение</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-26]</recmost>
+		<name>// Направленность</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 1</len>
+		<recmost>Р[2-27]</recmost>
+		<name>// Лицо задержано</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-28]</recmost>
+		<name>// Место совершения преступления</name>
+	</record>
+	<record>
+		<type>E</type>
+		<count>1</count>
+		<len>11</len>
+		<recmost>Р[2-28.1]</recmost>
+		<name>// Место совершения преступления по ОКАТО</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-29]</recmost>
+		<name>// Форма хозяйствующего субъекта</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len> 5</len>
+		<recmost>Р[2-30]</recmost>
+		<name>// Вид экономической деятельности</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>3</count>
+		<len> 5</len>
+		<recmost>Р[2-31]</recmost>
+		<name>// Предмет преступного посягательства</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>3</count>
+		<len> 5</len>
+		<recmost>Р[2-31.1]</recmost>
+		<name>// Оружие</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>3</count>
+		<len> 2</len>
+		<recmost>Р[2-32]</recmost>
+		<name>// Форма собственности</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>5</count>
+		<len> 2</len>
+		<recmost>Р[2-33]</recmost>
+		<name>// Способ совершения преступления</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>3</count>
+		<len>6</len>
+		<recmost>Р[2-34]</recmost>
+		<name>// Дополнительная характеристика преступления</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[2-35]</recmost>
+		<name>// Мотив преступления</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 1</len>
+		<recmost>Р[2-36]</recmost>
+		<name>// Состояние лица совершившего преступление</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>5</count>
+		<len> 3</len>
+		<recmost>Р[2-36.1]</recmost>
+		<name>// Лицо является потребителем</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-38]</recmost>
+		<name>// Характеристика группы</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-39]</recmost>
+		<name>// Характеристика связей</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-40]</recmost>
+		<name>// Роль лица</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 1</len>
+		<recmost>Р[2-41]</recmost>
+		<name>// Являлось участником</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 1</len>
+		<recmost>Р[2-42]</recmost>
+		<name>// Лицо находилось под следствием</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-43]</recmost>
+		<name>// Ранее совершал, но не привлекался</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-44]</recmost>
+		<name>// Привлекалось к ответственности</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 3</len>
+		<recmost>Р[2-45]</recmost>
+		<name>// Ранее судимо</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-46]</recmost>
+		<name>// Совершило рецидив</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-47]</recmost>
+		<name>// Ранее содержалось в ИУ</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>3</count>
+		<len> 1</len>
+		<recmost>Р[2-48]</recmost>
+		<name>// Период совершения преступления</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-49]</recmost>
+		<name>// Освобождалось от ответственности</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>3</count>
+		<len> 1</len>
+		<recmost>Р[2-50]</recmost>
+		<name>// Ранее совершал преступления</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-51]</recmost>
+		<name>// Результат расследования в отношении лица</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[2-51.1]</recmost>
+		<name>// Судебное решение</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-52]</recmost>
+		<name>// Наличие информации в АБД</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 1</len>
+		<recmost>Р[2-53]</recmost>
+		<name>// Ранее применялись административные меры</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-54]</recmost>
+		<name>// Кем расследовано преступление</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-54.1]</recmost>
+		<name>// Решение принято судьей</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len> 2</len>
+		<recmost>Р[2-55]</recmost>
+		<name>// Лицо состояло на учёте</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len> 4</len>
+		<recmost>Р[2-56]</recmost>
+		<name>// Служба, установившая лицо</name>
+	</record>
+</nameForm>

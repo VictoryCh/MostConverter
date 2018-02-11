@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recmiss>
+		<record>
+			<recmost>[R1]</recmost>
+			<recmis>001</recmis>
+			<byte_>1</byte_>
+			<Nfile>1</Nfile>
+		</record>
+		<record>
+			<recmost>[R2]</recmost>
+			<recmis>002</recmis>
+			<byte_>1</byte_>
+			<Nfile>2</Nfile>
+		</record>
+		<record>
+			<recmost>[R1]</recmost>
+			<recmis>001</recmis>
+			<byte_>1</byte_>
+			<Nfile>1</Nfile>
+		</record>
+		<record>
+			<recmost>[R2]</recmost>
+			<recmis>002</recmis>
+			<byte_>1</byte_>
+			<Nfile>2</Nfile>
+		</record>
+</recmiss>

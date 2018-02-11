@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nameForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="F3">
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>2</len>
+		<recmost>Р[3-1-1]</recmost>
+		<name>// Вид органа</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len>5</len>
+		<recmost>Р[3-1-2]</recmost>
+		<name>// Код органа</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>1</len>
+		<recmost>Р[3-2]</recmost>
+		<name>// Учесть/изменить/снять</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len>4</len>
+		<recmost>Р[3-3-1]</recmost>
+		<name>// Год регистрации</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len>9</len>
+		<recmost>Р[3-3-2]</recmost>
+		<name>// Номер уголовного дела</name>
+	</record>
+	<record>
+		<type>S</type>
+		<count>1</count>
+		<len> 17</len>
+		<recmost>Р[3-3.3]</recmost>
+		<name>// Единый номер уголовного дела</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>1</len>
+		<recmost>Р[3-3.3-1]</recmost>
+		<name>// Вид уголовного дела или материала проверки</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>2</len>
+		<recmost>Р[3-3.3-2]</recmost>
+		<name>// Последние две цифры года..</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-3.3-3]</recmost>
+		<name>// Уникальный восьмиразрядный код подразделения</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len>9</len>
+		<recmost>Р[3-3.3-4]</recmost>
+		<name>// Присвоенный при регистрации порядковый номер уголовного дела..</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-4]</recmost>
+		<name>// Дата направления карточки ф. № 3 в ИЦ</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-5]</recmost>
+		<name>// Дата поступления карточки ф. № 3 в ИЦ</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-6]</recmost>
+		<name>// Дата возбуждения уголовного дела</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>1</len>
+		<recmost>Р[3-7-1]</recmost>
+		<name>// УД передано(151,152)</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len>5</len>
+		<recmost>Р[3-7-2]</recmost>
+		<name>// Код органа, куда передано дело</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-7.1]</recmost>
+		<name>// Дата принятия решения</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>1</len>
+		<recmost>Р[3-8-1]</recmost>
+		<name>// Cоединено/Выделено</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len>4</len>
+		<recmost>Р[3-8-2]</recmost>
+		<name>// Год соединённого/выделенного дела</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len>9</len>
+		<recmost>Р[3-8-3]</recmost>
+		<name>// Номер соединённого/выделенного дела</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-8.1]</recmost>
+		<name>// Дата принятия решения</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>1</len>
+		<recmost>Р[3-8-1.1]</recmost>
+		<name>// Вид уголовного дела или материала проверки</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>2</len>
+		<recmost>Р[3-8-1.2]</recmost>
+		<name>// Последние две цифры года..</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-8-1.3]</recmost>
+		<name>// Уникальный восьмиразрядный код подразделения</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len>9</len>
+		<recmost>Р[3-8-1.4]</recmost>
+		<name>// Присвоенный при регистрации порядковый номер уголовного дела..</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>1</len>
+		<recmost>Р[3-9]</recmost>
+		<name>// Продлен срок расследования</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-9.1]</recmost>
+		<name>// Дата принятия решения</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-10]</recmost>
+		<name>// Срок продлён до даты</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-11]</recmost>
+		<name>// Дата передачи дела для ознакомления</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>1</len>
+		<recmost>Р[3-12-1]</recmost>
+		<name>// Дело приостановлено</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len>7</len>
+		<recmost>Р[3-12-2]</recmost>
+		<name>// Номер розыскного дела</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-12.1]</recmost>
+		<name>// Дата принятия решения</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>1</len>
+		<recmost>Р[3-12.2]</recmost>
+		<name>// Дело передано прокурору,направлено ходатайство</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-12.3]</recmost>
+		<name>// Дата принятия решения</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>2</len>
+		<recmost>Р[3-13]</recmost>
+		<name>// Решение по делу</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-13.1]</recmost>
+		<name>// Дата принятия решения</name>
+	</record>
+	<record>
+		<type>I</type>
+		<count>1</count>
+		<len>4</len>
+		<recmost>Р[3-15]</recmost>
+		<name>// Кем принято решение</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>2</len>
+		<recmost>Р[3-16]</recmost>
+		<name>// Принято к производству на доследование</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-16.1]</recmost>
+		<name>// Дата принятия к производству</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>2</count>
+		<len>2</len>
+		<recmost>Р[3-17]</recmost>
+		<name>// Возобновлено производство</name>
+	</record>
+	<record>
+		<type>D</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[3-17.1]</recmost>
+		<name>// Дата принятия решения</name>
+	</record>
+</nameForm>
