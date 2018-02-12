@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nameForm>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[1-1-1]</recmost>
+		<name>// Вид органа</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len> 2</len>
+		<recmost>Р[1-1-1]</recmost>
+		<name>// Вид органа</name>
+	</record>
+</nameForm>
