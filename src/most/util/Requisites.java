@@ -84,7 +84,7 @@ public class Requisites {
 		String value = val;
 		boolean multi = isMulti(rec);
 
-			System.out.print(recSet.getRecmost());
+//			System.out.print(recSet.getRecmost());
 
 		int ln = recSet.getLen()*recSet.getCount(); //Длинна реквизита в мосту
 		if (value != null) {
@@ -114,7 +114,7 @@ public class Requisites {
 										: rec.getByte_()+recSet.getLen()-1);
 					}
 					value = Strings.padStart(value, ln, '0');
-					System.out.println(value);
+//					System.out.println(value);
 				}
 
 			}
