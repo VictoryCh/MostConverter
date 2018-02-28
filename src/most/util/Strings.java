@@ -43,9 +43,9 @@ public final class Strings {
 	
 	public static String insert(String string, int offset, char c) {
 		StringBuilder sb = new StringBuilder(string);
-		
-		sb.insert(offset, c);
-		
+		if (string.length()>=offset) {
+			sb.insert(offset, c);
+		}
 		return sb.toString();
 	}
 	

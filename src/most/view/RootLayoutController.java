@@ -185,7 +185,7 @@ public class RootLayoutController {
     			
     			
     			long timeSpent = System.currentTimeMillis() - startTime;
-    		    alert.setContentText("Done!\nTime: " + timeSpent/1000);
+    		    alert.setContentText("Done "+grCheck[i].getText()+"!\nTime: " + timeSpent/1000);
     		    alert.showAndWait();
     		}
     	}
@@ -257,7 +257,9 @@ public class RootLayoutController {
 	    			while ((line = reader.readLine()) != null) {
 	    				Map<String, String> ud = new HashMap<String, String>(); //данные из формата ввода для одного УД
 	    				List<String> list = new ArrayList<String>();
-	
+	    				
+//	    				line.replaceAll("\\d{3}\\/[^\\/]+\\/", "\\d{3}\\/[^\\/]+\\/");
+	    				
 	    				Matcher m = pattern.matcher(line);
 	    				while (m.find()) {
 	    					String[] s = m.group().split("/");

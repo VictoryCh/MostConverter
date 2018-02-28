@@ -18,11 +18,11 @@ public class Requisites {
 		this.mapForms = mapForms;
 	}
 
-	private static final List<String> REC_NEED_CONVERT = Arrays.asList("Р[1-13-1]", "Р[1-13-2]", "Р[1-13.1-1]", "Р[1-13.1-2]", "Р[1-13.1-3]",
+	private static final List<String> REC_NEED_CONVERT = Arrays.asList("Р[1-12-1]", "Р[1-13-1]", "Р[1-13-2]", "Р[1-13.1-1]", "Р[1-13.1-2]", "Р[1-13.1-3]",
 			"Р[1-30.1]", "Р[1-30.2]","Р[1-30.3]","Р[1-30.4]","Р[1-30.5]", "Р[1-30.6]", "Р[1-30.7]", "Р[1-30.8]","Р[1-30.9]","Р[1-30.10]",
-			"Р[1-30.11]", "Р[1-30.12]", "Р[1-5-1]", "Р[1-5-2]", "Р[3-2]",
+			"Р[1-30.11]", "Р[1-30.12]","Р[1.1-35.1]", "Р[1-5-1]", "Р[1-5-2]", "Р[3-2]",
 			"Р[2-21.1-1]", "Р[2-21.1-2]", "Р[2-21.2-1]", "Р[2-21.2-2]", "Р[2-21.3-1]", "Р[2-21.3-2]", "Р[2-21.4-1]", "Р[2-21.4-2]",
-			"Р[2-21.5-1]", "Р[2-21.5-2]", "Р[2-21.6-1]", "Р[2-21.6-2]", "Р[4-6-1]", "Р[4-6-2]",
+			"Р[2-21.5-1]", "Р[2-21.5-2]", "Р[2-21.6-1]", "Р[2-21.6-2]", "Р[4-6-1]", "Р[4-6-2]", "Р[5-4-1]",
 			"Р[5-7.1-1]", "Р[5-7.1-2]", "Р[5-7.2-1]", "Р[5-7.2-2]", "Р[5-7.3-1]", "Р[5-7.3-2]","Р[6-15.1-3]", "Р[6-15.1-4]", "Р[6-15.2-3]",
 			"Р[6-15.2-4]", "Р[6-15.3-3]", "Р[6-15.3-4]", "Р[6-15.4-3]", "Р[6-15.4-4]", "Р[6-15.5-3]", "Р[6-15.5-4]",
 			"Р[6-15.6-3]", "Р[6-15.6-4]", "Р[6-15.7-3]", "Р[6-15.7-4]", "Р[6-15.8-3]", "Р[6-15.8-4]", "Р[6-15.9-3]",
@@ -47,7 +47,7 @@ public class Requisites {
 			"Р[4-3.3-3]","Р[4-3.3-4]","Р[5-3-1]","Р[5-3-2]","Р[5-3-3]","Р[5-3.3]","Р[5-3.3-1]","Р[5-3.3-2]","Р[5-3.3-3]","Р[5-3.3-4]",
 			"Р[6-2]","Р[6-2.1]","Р[6-2.1-1]","Р[6-2.1-2]","Р[6-2.1-3]","Р[6-2.1-4]");
 	private static final List<String> REC_OLD_NUMUD = Arrays.asList("Р[1-3-1]", "Р[1-3-2]", "Р[1-3-3]", "Р[3-3-1]", "Р[3-3-2]", "Р[3-8-2]", "Р[3-8-3]");
-	private static final List<String> REC_SERVICE = Arrays.asList("Р[1-9]", "Р[1.1-34]", "Р[1.2-14]");
+	private static final List<String> REC_SERVICE = Arrays.asList("Р[1-9]", "Р[1-10.3]", "Р[1.1-34]","Р[1.1-34.1]", "Р[1.2-14]", "Р[2-56]");
 	private static final List<String> ARTICLE = Arrays.asList("171111","193011","212011","282111","282211","293011", "205111");
 //	private static final List<String> REC_DAMAGE = Arrays.asList(a)
 
@@ -84,13 +84,13 @@ public class Requisites {
 		String value = val;
 		boolean multi = isMulti(rec);
 
-//			System.out.println(recSet.getRecmost());
+			System.out.print(recSet.getRecmost());
 
 		int ln = recSet.getLen()*recSet.getCount(); //Длинна реквизита в мосту
 		if (value != null) {
-			if (recSet.getRecmost().equals("Р[1-12-1]")) value=ReorgDate(value);
-			if (recSet.getRecmost().equals("Р[5-4-1]")) value=value.substring(0, rec.getByte_()+recSet.getLen()-2);
-
+			
+			
+			
 			if (!recSet.getType().equals("R")&&multi) value = ReorgMulti(recSet,rec,value);
 			else if (isNeedToConvert(rec.getRecmost())) value = ReorgRec(recSet,rec,value);
 			else if (isNumUD(rec.getRecmost())) value = NumUD(recSet, rec, value);
@@ -114,6 +114,7 @@ public class Requisites {
 										: rec.getByte_()+recSet.getLen()-1);
 					}
 					value = Strings.padStart(value, ln, '0');
+					System.out.println(value);
 				}
 
 			}
@@ -136,7 +137,8 @@ public class Requisites {
     public String ReorgService(String val) {
     	String newRec = val;
 
-    	if (val.equals("0026") || val.equals("0206")) newRec = "0006";
+    	if (val.equals("0026") || val.equals("0206")) 
+    		newRec = "0006";
 
     	return newRec;
     }
@@ -149,12 +151,16 @@ public class Requisites {
 		for (int i = 0; i<recArr.length; i++) {
 
 			if (recSet.getType().equals("E")) {
-//				System.out.print(recSet.getRecmost() +": " + recArr[i]);
 				recArr[i]=recArr[i].replaceAll("\\D", "");
-//				System.out.println(" -> "+recArr[i] + "|");
 			}
-			if (recArr[i].substring(rec.getByte_()-1).length()>recSet.getLen()) recArr[i] = recArr[i].substring(rec.getByte_()-1, recSet.getLen());
-			else if (recArr[i].substring(rec.getByte_()-1).length()<recSet.getLen()) recArr[i] = Strings.padStart(recArr[i].substring(rec.getByte_()-1), recSet.getLen(), '0');
+			
+			if (recArr[i].length()<(rec.getByte_()-1))
+				recArr[i] = Strings.padEnd(recArr[i], rec.getByte_()-1, '0');
+			
+			if (recArr[i].substring(rec.getByte_()-1).length()>recSet.getLen()) 
+				recArr[i] = recArr[i].substring(rec.getByte_()-1, recSet.getLen());
+			else if (recArr[i].substring(rec.getByte_()-1).length()<recSet.getLen()) 
+				recArr[i] = Strings.padStart(recArr[i].substring(rec.getByte_()-1), recSet.getLen(), '0');
 
 
 
@@ -184,7 +190,7 @@ public class Requisites {
 
 		for (int i=0; i<recArr.length; i++) {
 			if (recArr[i].substring(0, 2).equals(zn)) {
-				newRec = recArr[i].substring(2);
+				newRec = recArr[i];
 				break;
 			}
 		}
@@ -206,12 +212,12 @@ public class Requisites {
 
 		switch (st.getType()) {
 			case "I":{
-				if (val!="") newRec = val.substring(rec.getByte_()-1, st.getLen());
+				if ((val!="")&&(val.length()>(rec.getByte_()-1))) newRec = val.substring(rec.getByte_()-1, st.getLen());
 				newRec = Strings.padEnd(newRec, st.getLen()*st.getCount(), '0');
 				break;
 			}
 			case "R":{
-				if (val!="") newRec = val.substring(rec.getByte_()-1);
+				if ((val!="")&&(val.length()>(rec.getByte_()-1))) newRec = val.substring(rec.getByte_()-1);
 				if (ARTICLE.contains(val)) {
 					if (val.equals("171111")) newRec = "7";
 					else newRec="6";
@@ -264,8 +270,8 @@ public class Requisites {
     		newRec = val.substring(0, 1) + yy + "0014000" + val.substring(5, 12);
     	} else newRec = val;
 
-    	newRec.replace('К', '9');
-    	newRec.replace('П', '6');
+    	newRec = newRec.replace('К', '9');
+    	newRec = newRec.replace('П', '6');
 
     	return newRec;
     }
@@ -289,47 +295,15 @@ public class Requisites {
 		if (isArticle(recSet.getRecmost())) {
 			newRec = Article(recSet, rec, oldVal);
 		} else
-
 			switch (rec.getRecmis()) {
-				/*case "013":{
-					newRec = Article(recSet, rec, oldVal);
-					break;
-				}
-				case "021":{
-					newRec = Article(recSet, rec, oldVal);
-					break;
-				}
-				case "222":{
-					newRec = Article(recSet, rec, oldVal);
-					break;
-				}
-				case "223":{
-					newRec = Article(recSet, rec, oldVal);
-					break;
-				}
-				case "007":{
-					newRec = Article(recSet, rec, oldVal);
-					break;
-				}
-				case "711":{
-					newRec = Article(recSet, rec, oldVal);
-					break;
-				}
-				case "712":{
-					newRec = Article(recSet, rec, oldVal);
-					break;
-				}
-				case "311":{
-					newRec = Article(recSet, rec, oldVal);
-					break;
-				}*/
 				case "030":{
 					newRec = R030(recSet.getRecmost(),oldVal);
-					newRec = Strings.padEnd(newRec, recSet.getLen()*recSet.getCount(), '0');
+//					newRec = Strings.padEnd(newRec, recSet.getLen()*recSet.getCount(), '0');
 	//				newRec = String.format("%0" + recSet.getLen() + "d", 0);
 					break;
 				}
 				case "005":{
+					oldVal = oldVal.replaceAll("\\D", "0");
 					if (recSet.getType().equals("D")) {
 						newRec = oldVal.substring(rec.getByte_()-1);
 					} else {
@@ -337,14 +311,28 @@ public class Requisites {
 					}
 					break;
 				}
-		}
+			}
 
 		switch (rec.getRecmost()) {
-		case "Р[3-2]":{
-			if (oldVal.substring(0,1).equals("4")) newRec = "1";
-			else newRec=oldVal;
-			break;
-		}
+			case "Р[3-2]":{
+				if (oldVal.substring(0,1).equals("4")) newRec = "1";
+				else newRec=oldVal;
+				break;
+			}
+			case "Р[1.1-35.1]":{
+				newRec = oldVal.replaceAll("\\D", "0"); 
+				break;
+			}
+			case "Р[1-12-1]":{
+				newRec = ReorgDate(oldVal);
+				break;
+			}
+			case "Р[5-4-1]":{
+				newRec=oldVal.substring(0, rec.getByte_()+recSet.getLen()-2);
+				break;
+			}
+			/*if (recSet.getRecmost().equals("Р[1-12-1]")) value=ReorgDate(value);
+			if (recSet.getRecmost().equals("Р[5-4-1]")) value=value.substring(0, rec.getByte_()+recSet.getLen()-2);*/
 		}
 
 		return newRec;

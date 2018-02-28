@@ -57,6 +57,34 @@
 		<name>// Единый номер уголовного дела</name>
 	</record>
 	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>1</len>
+		<recmost>Р[4-3.3-1]</recmost>
+		<name>// Вид уголовного дела или материала проверки</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>2</len>
+		<recmost>Р[4-3.3-2]</recmost>
+		<name>// Последние две цифры года..</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[4-3.3-3]</recmost>
+		<name>// Уникальный восьмиразрядный код подразделения</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len>9</len>
+		<recmost>Р[4-3.3-4]</recmost>
+		<name>// Присвоенный при регистрации порядковый номер уголовного дела..</name>
+	</record>
+	<record>
 		<type>D</type>
 		<count>1</count>
 		<len>8</len>
@@ -93,8 +121,8 @@
 	</record>
 	<record>
 		<type>I</type>
-		<count>3</count>
-		<len>6</len>
+		<count>6</count>
+		<len>3</len>
 		<recmost>Р[4-9]</recmost>
 		<name>// Дополнительная характеристика преступления</name>
 	</record>
@@ -568,6 +596,34 @@
 		<name>// Единый номер уголовного дела</name>
 	</record>
 	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>1</len>
+		<recmost>Р[1-3.3-1]</recmost>
+		<name>// Вид уголовного дела или материала проверки</name>
+	</record>
+	<record>
+		<type>C</type>
+		<count>1</count>
+		<len>2</len>
+		<recmost>Р[1-3.3-2]</recmost>
+		<name>// Последние две цифры года..</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len>8</len>
+		<recmost>Р[1-3.3-3]</recmost>
+		<name>// Уникальный восьмиразрядный код подразделения</name>
+	</record>
+	<record>
+		<type>L</type>
+		<count>1</count>
+		<len>9</len>
+		<recmost>Р[1-3.3-4]</recmost>
+		<name>// Присвоенный при регистрации порядковый номер уголовного дела..</name>
+	</record>
+	<record>
 		<type>I</type>
 		<count>1</count>
 		<len>4</len>
@@ -891,8 +947,8 @@
 	</record>
 	<record>
 		<type>I</type>
-		<count>3</count>
-		<len>6</len>
+		<count>6</count>
+		<len>3</len>
 		<recmost>Р[1-27]</recmost>
 		<name>// Дополнительная характеристика пр-ния</name>
 	</record>
